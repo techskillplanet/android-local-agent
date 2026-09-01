@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Local Agent</string>
+    <string name="app_subtitle">Android 本地 GGUF 聊天 Sample</string>
+
+    <string name="pick_model">选择 GGUF</string>
+    <string name="change_model">更换模型</string>
+    <string name="unload_model">卸载</string>
+    <string name="model_hint">推荐 Qwen2.5 / Qwen2 0.5B Instruct 的 GGUF。完全离线。</string>
+    <string name="prompt_suggestions">试着问问</string>
+    <string name="model_loading">正在复制并加载模型，请稍候…</string>
+    <string name="model_none">尚未加载模型 · 点中间「选择 GGUF」开始</string>
+    <string name="model_ready">已就绪：%1$s（%2$s）· 加载 %3$d ms</string>
+    <string name="model_status_title">模型状态</string>
+
+    <string name="input_hint">输入消息…</string>
+    <string name="input_hint_need_model">先加载 GGUF 再聊天</string>
+    <string name="send">发送</string>
+    <string name="stop">停止</string>
+    <string name="clear_chat">清空</string>
+    <string name="regenerate">重生成</string>
+    <string name="settings">采样</string>
+    <string name="theme">主题</string>
+    <string name="about">关于</string>
+
+    <string name="empty_title">开始本地对话</string>
+    <string name="empty_chat">选择 Instruct GGUF 后即可聊天。长按气泡可复制。数据不出设备。</string>
+    <string name="ready_hint_title">可以开始聊天了</string>
+    <string name="ready_hint_body">在下方输入，或点快捷提问。长按气泡可复制。</string>
+    <string name="system_prompt">你是运行在 Android 本地设备上的助手。请用简洁中文回答。若不确定请直说不知道，不要编造。</string>
+
+    <string name="error_load">加载失败：%1$s</string>
+    <string name="error_generate">生成失败：%1$s</string>
+    <string name="gen_stats">生成完成 · %1$d ms · ~%2$d tokens</string>
+    <string name="gen_cancelled">已停止生成</string>
+    <string name="settings_applied">已应用：%1$s</string>
+    <string name="theme_applied">主题已切换</string>
+    <string name="need_model">请先加载 GGUF 模型</string>
+    <string name="copy_hint">长按消息可复制</string>
+
+    <string name="chip_hello">用一句话介绍你自己</string>
+    <string name="chip_safe">什么是 GGUF？用三句话解释</string>
+    <string name="chip_poem">写一首四句短诗，关于手机里的小模型</string>
+    <string name="chip_code">用 Kotlin 写一个斐波那契函数，只要代码</string>
+    <string name="chip_weather">今天适合出门散步吗？给三点理由</string>
+    <string name="chip_translate">把「本地运行更安心」翻译成英文</string>
+    <string name="chip_summary">用三句话说明什么是大语言模型</string>
+    <string name="chip_tips">提高专注力有哪些简单方法？列五条</string>
+    <string name="chip_recipe">给我一个三人份番茄炒蛋的步骤</string>
+    <string name="chip_explain">用小学生能懂的话解释什么是内存</string>
+    <string name="chip_compare">对比一下 Wi‑Fi 和移动数据的优缺点</string>
+    <string name="chip_plan">帮我列一个今晚 1 小时自学计划</string>
+    <string name="chip_email">写一封简短的请假邮件，语气礼貌</string>
+    <string name="chip_quiz">出一道简单的脑筋急转弯并给出答案</string>
+
+    <string name="about_title">关于 Local Agent</string>
+    <string name="about_body">技趣星球开源 Sample：planet-components（Android View）+ llama.cpp（GGUF）。\n\n默认：扁平科技风「深空青 Cyber Flat」+ 聊天气泡头像。\n无 INTERNET 权限；对话默认不落盘。\n\n详见 README / NOTICE。</string>
+
+    <string name="oss_title">开源与许可</string>
+</resources>

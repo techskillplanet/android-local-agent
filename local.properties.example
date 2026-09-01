@@ -1,0 +1,4 @@
+## SDK location
+## 将下面路径改成你本机的 Android SDK 目录后，另存为 local.properties
+# sdk.dir=/Users/YOU/Library/Android/sdk
+sdk.dir=/Volumes/outmount/androidsdk
